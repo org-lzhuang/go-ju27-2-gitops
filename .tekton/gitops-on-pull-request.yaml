@@ -10,7 +10,7 @@ metadata:
     pipelinesascode.tekton.dev/task-1: "https://raw.githubusercontent.com/redhat-appstudio/tssc-sample-pipelines/release-v1.6.x/pac/tasks/gather-deploy-images.yaml"
     pipelinesascode.tekton.dev/task-2: "https://raw.githubusercontent.com/redhat-appstudio/tssc-sample-pipelines/release-v1.6.x/pac/tasks/verify-enterprise-contract.yaml"
     pipelinesascode.tekton.dev/task-3: "https://raw.githubusercontent.com/redhat-appstudio/tssc-sample-pipelines/release-v1.6.x/pac/tasks/gather-deploy-images.yaml"
-    pipelinesascode.tekton.dev/task-4: "https://raw.githubusercontent.com/redhat-appstudio/tssc-sample-pipelines/release-v1.6.x/pac/tasks/download-sbom-from-url-in-attestation.yaml"
+    pipelinesascode.tekton.dev/task-4: "https://github.com/lingyzhuang/tssc-sample-pipelines/blob/main/pac/tasks/download-sbom-from-url-in-attestation.yaml"
     pipelinesascode.tekton.dev/task-5: "https://raw.githubusercontent.com/redhat-appstudio/tssc-sample-pipelines/release-v1.6.x/pac/tasks/upload-sbom-to-trustification.yaml"
   labels:
     argocd/app-name: test-go
